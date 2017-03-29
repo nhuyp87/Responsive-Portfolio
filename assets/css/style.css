@@ -33,29 +33,41 @@ body {
 }
 
 
-.Links {
+/*.Links {
 	float: right;
 	padding: 20px 0 20px 0;
-	/*position: absolute;
-	top: -70px;*/
+	position: absolute;
+	top: -70px;
 	color: #F0F0F0;
+	list-style-type: none;
+	
 
 	
 
 
 }
+*/
 
-
-#Links1, #Links2, #Links3 {
+.navLinks {
+	
+	float: right;
 	position: relative;
-	top: -70px;
-	text-align: left;
+	top: -55px;
+	right: 15%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #777777;
 	margin: 0px 15px 0px 15px;
-	list-style-type: none;
+	display: inline;
+	text-decoration: none;
 	
+	
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+
 }
 
 
@@ -316,88 +328,109 @@ input[type=submit]:hover {
 	}
 
 
+	.navLinks {
+		right: 9%;
+	}
+
+	h2 {
+
+		text-align: left;
+	}
+
+
 
 }
 
 @media screen and (max-width: 768px) {
 
-#Name {
-	left: 5%;
-}
+	#Name {
+		left: 5%;
+	}
 
-.Content {
-	width: 650px;
-	left: 5%;
-	margin-bottom: 40px; 
-}
+	.Content {
+		width: 650px;
+		left: 5%;
+		margin-bottom: 40px; 
+	}
 
 
-.socialmedia {
-	left: 5%;
-	width: 650px;
-	padding: 20px;
-	
-}
+	.socialmedia {
+		left: 5%;
+		width: 650px;
+		padding: 20px;
+		
+	}
+
+
+	.navLinks {
+		right: 4%;
+	}
+
+
+	h2 {
+		text-align: left;
+	}
+
+
+	.title {
+		text-align: center;
+	}
 
 
 }
 
 @media screen and (max-width: 640px) {
 
-.Wrapper {
-	padding-bottom: 350px;
-}
+	.Wrapper {
+		padding-bottom: 350px;
+	}
 
-.Heading{
-	width: 640px;
-}
+	.Heading{
+		width: 640px;
+	}
 
-#Name {
-	width: 100%;
-	left: 0%;
-	padding: 20px 0 0 0;
+	#Name {
+		width: 100%;
+		left: 0%;
+		padding: 20px 0 20px 0;
+		
 
-}
-
-
-.Links {
-	width: 100%;
-	position: absolute;
-	top: 50px;
-	background-color: white;
-	padding: 15px 0 15px 0;
-	margin: 0;
-	left: 0%;
-	font-size: 16px;	
-	
-}
+	}
 
 
+	.navLinks {
+		top: 15px;
+		right: 60px;
+		margin-left: 65px;
+		background-color: #ffffff;
 
-#Links1, #Links2, #Links3 {
-	
+	}
+		
+	.Links {
+		background-color: #ffffff;
+		height: 45px;
 
-}
-
-
-.Content {
-
-	width: 530px;
-	position: relative;
-	top: 150px;
-
-	
-}
-
-.socialmedia {
-	width: 530px;
-	top: 150px;
-}
+	}
 
 
-.imgGrid {
-	margin-left: 120px;
-}
+	.Content {
+
+		width: 530px;
+		position: relative;
+		top: 60px;
+
+		
+	}
+
+	.socialmedia {
+		width: 530px;
+		top: 60px;
+	}
+
+
+	.imgGrid {
+		margin-left: 120px;
+	}
 
 
 
